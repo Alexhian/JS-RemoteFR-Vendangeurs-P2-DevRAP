@@ -16,6 +16,7 @@ function App() {
         margin: 0,
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
+        minHeight: "90vh",
       }}
     >
       <div

@@ -29,8 +29,8 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Black overlay with 30% opacity */
-  z-index: -1; /* Make sure the overlay stays behind the content */
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 
 /*media query version desktop*/
@@ -46,6 +46,10 @@ body::before {
 
 .leftSection {
   margin-bottom: 20%;
+  padding: 0.5rem 1rem;
+}
+
+.rightSection {
   padding: 0.5rem 1rem;
 }
 
