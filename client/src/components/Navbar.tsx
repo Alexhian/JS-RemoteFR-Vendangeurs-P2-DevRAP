@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import logo3 from "../assets/logo3.png";
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {
@@ -6,11 +7,7 @@ export default function Navbar() {
     <header className={styles.header}>
       <div className={styles.logoContent}>
         <NavLink to="/">
-          <img
-            src="../public/logo3.png"
-            alt="Logo"
-            className={styles.headerLogo}
-          />
+          <img src={logo3} alt="Logo" className={styles.headerLogo} />
         </NavLink>
         <NavLink to="/">
           {" "}

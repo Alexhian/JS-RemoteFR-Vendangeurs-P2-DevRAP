@@ -1,3 +1,9 @@
+import combat from "../assets/combat.svg";
+import endurance from "../assets/endurance.png";
+import force from "../assets/force.png";
+import intelligence from "../assets/intelligence.png";
+import puissance from "../assets/puissance.png";
+import vitesse from "../assets/vitesse.png";
 import styles from "./CardDev.module.css";
 
 import { useContextProvider } from "./context/ContextProvider";
@@ -53,31 +59,27 @@ function CardDev() {
           <h5>Powerstat</h5>
           <figcaption id={styles.powerstat}>
             <div className="powerstats-container">
-              <img
-                src="../public/intelligence.png"
-                alt="un-cerveau"
-                width="60px"
-              />
+              <img src={intelligence} alt="un-cerveau" width="60px" />
               <p>{selectedHero?.powerstats?.intelligence}</p>
             </div>
             <div className="powerstats-container">
-              <img src="../public/force.png" alt="biceps" width="60px" />
+              <img src={force} alt="biceps" width="60px" />
               <p>{selectedHero?.powerstats?.strength} </p>
             </div>
             <div className="powerstats-container">
-              <img src="../public/vitesse.png" alt="vitesse" width="60px" />
+              <img src={vitesse} alt="vitesse" width="60px" />
               <p>{selectedHero?.powerstats?.speed}</p>
             </div>
             <div className="powerstats-container">
-              <img src="../public/endurance.png" alt="pile" width="60px" />
+              <img src={endurance} alt="pile" width="60px" />
               <p>{selectedHero?.powerstats?.durability}</p>
             </div>
             <div className="powerstats-container">
-              <img src="../public/puissance.png" alt="eclair" width="60px" />
+              <img src={puissance} alt="eclair" width="60px" />
               <p>{selectedHero?.powerstats?.power}</p>
             </div>
             <div className="powerstats-container">
-              <img src="../public/combat.svg" alt="fight" width="58px" />
+              <img src={combat} alt="fight" width="58px" />
               <p>{selectedHero?.powerstats?.combat}</p>
             </div>
           </figcaption>

@@ -113,7 +113,7 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
     };
   }, [input]);
 
-  const resultsPerPage = 8;
+  const resultsPerPage = 7;
   const start = (page - 1) * resultsPerPage;
   const end = page * resultsPerPage;
   const currentData = filteredHeroes.slice(start, end);
