@@ -1,9 +1,9 @@
+import React from "../assets/React.svg";
 import css3 from "../assets/css3.svg";
 import github from "../assets/github.svg";
 import html5 from "../assets/html5.svg";
 import linkedin from "../assets/linkedin.svg";
 import logo3 from "../assets/logo3.png";
-import React from "../assets/react.svg";
 import datas from "../datas/datas.json";
 import type { Urls } from "../lib/definition";
 import styles from "./Footer.module.css";
