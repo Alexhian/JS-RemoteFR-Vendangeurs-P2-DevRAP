@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className={styles.logoContent}>
         <NavLink to="/">
           <img
-            src="../src/assets/logo/logo3.png"
+            src="../public/logo3.png"
             alt="Logo"
             className={styles.headerLogo}
           />

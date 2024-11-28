@@ -12,11 +12,7 @@ function Footer() {
     <footer>
       <div className={styles.footerContener}>
         <div className={styles.firstLineFooter}>
-          <img
-            id={styles.logoFooter}
-            src="../src/assets/logo/logo3.png"
-            alt="logo"
-          />
+          <img id={styles.logoFooter} src="../public/logo3.png" alt="logo" />
           <p>© 2024 DevRAP All rights reserved.</p>
         </div>
         <div className={styles.collaborateurs}>
@@ -48,7 +44,7 @@ function Footer() {
         </div>
         <div className={styles.socialMedia}>
           <img
-            src="../src/assets/logo/linkedin.svg"
+            src="../public/linkedin.svg"
             alt="linkedin"
             width="15%"
             onClick={() => handleClick(urlArray.linkedin)}
@@ -59,7 +55,7 @@ function Footer() {
             }}
           />
           <img
-            src="../src/assets/logo/github.svg"
+            src="../public/github.svg"
             alt="github"
             width="15%"
             onClick={() => handleClick(urlArray.github)}
@@ -70,7 +66,7 @@ function Footer() {
             }}
           />
           <img
-            src="../src/assets/logo/React.svg"
+            src="../public/React.svg"
             alt="react"
             onClick={() => handleClick(urlArray.react)}
             onKeyDown={(e) => {
@@ -80,7 +76,7 @@ function Footer() {
             }}
           />
           <img
-            src="../src/assets/logo/css3.svg"
+            src="../public/css3.svg"
             alt="CSS"
             width="15%"
             onClick={() => handleClick(urlArray.css3)}
@@ -91,7 +87,7 @@ function Footer() {
             }}
           />
           <img
-            src="../src/assets/logo/html-5.svg"
+            src="../public/html-5.svg"
             alt="html"
             width="15%"
             onClick={() => handleClick(urlArray.html5)}

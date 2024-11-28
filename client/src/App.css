@@ -17,7 +17,7 @@ body {
   color: #eee;
   margin: 0;
   background-color: #2e2e2e;
-  background-image: url("images/background.webp");
+  background-image: url("./public/background.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -80,13 +80,18 @@ body::before {
 
   .btnFirst,
   .btnSecond {
-    font-size: 12rem;
+    font-size: 8rem;
     width: 250px;
     border: none;
     scale: 0.4;
     color: white;
-    background: var(--color4-);
+    background: var(--color3-);
     border-radius: 100%;
     margin-top: -5%;
+  }
+
+  .btnFirst:hover,
+  .btnSecond:hover {
+    background-color: #252a63;
   }
 }
